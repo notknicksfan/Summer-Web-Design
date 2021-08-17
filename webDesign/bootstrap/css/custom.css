@@ -1,0 +1,130 @@
+
+.nav-link{
+  color:black;
+}
+
+#backstory{
+  background-color: rgb(0, 71, 171);
+  color:white;
+}
+#backstory h1{
+  margin-left:10%;
+  margin-top: 10%;
+  font-size: 48px;
+}
+#backstory p{
+  margin-left: 10%;
+  font-weight: 500;
+}
+#backstory img{
+  max-width:100%;
+  max-height:100%;
+}
+#effects{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content:space-between;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+#effects img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-bottom:5%;
+}
+#fishes{
+  background-color: rgb(0, 71, 171);
+
+  margin-bottom: 5%;
+}
+.slideImg{
+  height:60vh;
+  width:auto;
+}
+.customCarouselItem img{
+  margin: 0 auto;
+}
+#contact{
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+#contact a:link{
+  color:white;
+}
+#contact a:visited{
+  color:white;
+
+}
+#newsletter{
+  margin-left: 30%;
+}
+#actions{
+  margin:0;
+  width:80%;
+  margin-left:10%;
+  margin-bottom: 20%;
+}
+#actions img{
+  max-width: 100%;
+}
+#navbar img{
+  width:10%;
+}
+#info div{
+  margin:0 auto;
+  margin-left: 10%;
+}
+#info h1{
+  margin-left:10%;
+}
+#info img{
+  width:60%;
+  margin:auto;
+}
+#info{
+  margin-bottom: 10%;
+}
+@media only screen
+  and (min-width: 370px)
+  and (max-width: 960px) {
+
+    #navbar img{
+      width:40%;
+    }
+    #navbar button{
+      width: 30%;
+    }
+    #menulogo img{
+      width:50%;
+    }
+    #backstory h1{
+      margin-left:10%;
+      margin-top: 10%;
+      font-size: 36px;
+    }
+    #backstory p{
+      margin-left:10%;
+      margin-top: 10%;
+      font-size: 12px;
+    }
+    #effects{
+      display: block;
+    }
+    #effects div{
+      width:100%;
+    }
+    .slideImg{
+      width : 100%;
+      height : auto;
+    }
+    #newsletter{
+      margin-left: 0;
+    }
+    #info img{
+      width:100%;
+    }
+  }

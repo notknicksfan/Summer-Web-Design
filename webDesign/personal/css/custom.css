@@ -1,0 +1,150 @@
+header{
+  color: #e56020;
+  font-family: 'helvetica',sans-serif;
+  padding : 20px ;
+  margin-left: 15%;
+  font-size: 24px;
+  margin: 10px green;
+}
+
+
+.wrap{
+  border : solid #12232E;
+  width : 90%;
+  margin:0 auto;
+  color: white;
+  font-family: 'helvetica',sans-serif;
+  font-weight: bold;
+}
+html,body{
+  background-color: #12232E;
+  margin:0;
+  padding:0;
+}
+
+nav{
+  border : solid 1px #00471B;
+}
+
+nav ul{
+  margin-left: 110px;
+  margin-right: 100px;
+  border : solid 0px black;
+  list-style : none;
+  padding : 0px black;
+  margin : 0px black;
+  display : flex;
+}
+
+nav ul a{
+  border : solid 0px black;
+  flex-grow : 1;
+  padding : 15px;
+  width: 10px;
+}
+nav ul a:link{
+  border: solid 0px black;
+  color : white ;
+  text-decoration : none;
+  font-family: 'helvetica',sans-serif;
+  font-weight : bold;
+  font-size: 20px;
+}
+
+nav ul a:visited{
+  color: white;
+}
+nav ul a:hover{
+  background:  #EEE1C6;
+}
+nav ul a:active{
+  color: #007CC7;
+}
+nav ul a:focus{
+  color : #007CC7;
+}
+#selfie{
+  float:left;
+  margin-left: 10%;
+  margin-right:100px;
+}
+p{
+  margin-left: 10%;
+  font-family: 'helvetica',sans-serif;
+  font-weight : bold;
+  color : white ;
+
+}
+
+#intro{
+  border : solid #12232E;
+  margin:0 auto;
+  color: white;
+  font-family: 'helvetica',sans-serif;
+  font-weight: bold;
+  margin-top:512px;
+  margin-left:10%;
+  margin-right: 10%;
+  width: 50%;
+
+}
+#schoolmap{
+  font-family: 'helvetica',sans-serif;
+  font-weight: bold;
+  margin-left:10%;
+
+  margin-right: 5%;
+}
+#schooltext{
+  font-family: 'helvetica',sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-right: 10%;
+}
+#basketball{
+  margin-top: 10%;
+  margin-bottom:20%;
+}
+#lebron{
+  float:right;
+  margin-right: 10%;
+  margin-bottom: 5%;
+
+}
+#shows{
+  margin-top:100px;
+  margin-bottom:100px;
+
+  margin-left:200px;
+  font-family: 'helvetica',sans-serif;
+  font-weight: bold;
+  color: white;
+}
+table{
+  margin-top:5%;
+  margin-bottom:5%;
+
+  margin-left:10%;
+  font-family: 'helvetica',sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: solid 0px #12232E;
+  border: solid 0px #12232E;
+}
+table td{
+  padding: solid 0px #12232E;
+  margin: solid 0px #12232E;
+  border: solid 0px #12232E;
+
+}
+form{
+  font-family: 'helvetica',sans-serif;
+  font-weight: bold;
+  color: white;
+}
+#comment{
+  margin-left:10%;
+  font-family: 'helvetica',sans-serif;
+  font-weight: bold;
+  color: white;
+}

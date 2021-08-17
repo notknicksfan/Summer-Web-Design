@@ -1,0 +1,96 @@
+.wrap {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #ababab;
+  font-size: 8px;
+  text-transform: uppercase;
+  width : 100%;
+  margin : 0 auto;
+}
+
+.links{
+  display: flex;
+  width:100%;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#albumcover{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+#albumcover img{
+  width: 100%;
+  height: 100%;
+}
+#dondalist{
+  margin-bottom: 3%;
+}
+#dondalist ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size:10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#musicplatforms{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#musicplatforms img{
+  width:10%;
+  height:10%;
+}
+a{
+  text-decoration: none;
+  color: #ababab;
+}
+a:visited{
+  color: #ababab;
+}
+.album {
+  display:flex;
+  text-align: center;
+  align-items: center;
+}
+.album img{
+  width:50%;
+  margin-left:5%
+}
+.album ul{
+  list-style-type: none;
+  width:50%;
+  margin:0 auto;
+  margin-top: 3%;
+  margin-right:1%;
+}
+.albumtitleleft{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width:60%;
+  text-align: center;
+}
+.albumtitleright{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width:60%;
+  text-align: center;
+  margin-left:50%;
+}
+#socialmedia {
+  display: flex;
+  justify-content: center;
+}
+
+.socialcontent{
+  width:5%;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ozean</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" type="image/x-icon" href="fish.ico">
+    <meta name="viewport" content="initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="nav" class="row">
+        <div class="col-md-12 noPadding">
+          <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid" id="navbar">
+              <img src="images/fish.jpeg">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="material-icons-outlined">
+                  <img src="images/menu1x.png"/>
+                </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="help.html"> How to Help</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="learn.html">Learn More</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row" id="actions">
+        <div id="accordion" class = "col-sm-6">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Check origins of the fish
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                Check labels to find origins, avoid seafood from Asian countries like China, Thailand, and Vietnam. Look out for
+                seafood that have been certified by Ocean Wise, the Aquaculture Stewardship Council, and the FDA.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Find sustainable seafood
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Use Monterey Bay Aquarium's seafood watch list before buying seafood or ordering at a restaurant, <a href="https://www.seafoodwatch.org/">here</a>.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Donate
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                <form class="form-inline" >
+                  <div class="form-group ">
+                    <input type="password" class="form-control" id="inputAmount" >
+                  </div>
+                  <br>
+                  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = "col-sm-6">
+          <img src="images/schoolfish.jpeg" alt="">
+        </div>
+      </div>
+      <div class="row" id="contact">
+        <div class="col-sm-4">
+          <div id="contactCountry">
+            United States
+          </div>
+          <br>
+          54 Glen Creek Ave.
+          <br>
+          Poughkeepsie, NY 12603
+          <br>
+          Ozean
+          <br>
+          <a href="https://pixar.fandom.com/wiki/Nemo">
+            <img src="images/fb.png" alt="">
+          </a>
+
+          <a href="https://pixar.fandom.com/wiki/Nemo">
+            <img src="images/instagram.png" alt="">
+          </a>
+
+        </div>
+        <div class="col-sm-3" id="newsletter">
+          <form>
+
+            <div class="form-group">
+              <div>
+                <label for="exampleInputEmail1">Subscribe to our Newsletter</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,152 @@
+.wrap {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #ababab;
+  font-size: 16px;
+  text-transform: uppercase;
+  width : 60%;
+  margin : 0 auto;
+}
+
+.links{
+  display: flex;
+  width:100%;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+#albumcover{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+#albumcover img{
+  width: 1132px;
+  height: 762px;
+}
+#dondalist{
+  margin-bottom: 3%;
+}
+#dondalist ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size:32px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#musicplatforms{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: #ababab;
+}
+a:visited{
+  color: #ababab;
+}
+.album {
+  display:flex;
+  text-align: center;
+  align-items: center;
+}
+.album img{
+  width:40%;
+}
+.album ul{
+  list-style-type: none;
+  width:50%;
+}
+.albumtitleleft{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width:40%;
+  text-align: center;
+}
+.albumtitleright{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width:50%;
+  text-align: center;
+  margin-left:50%;
+}
+#socialmedia {
+  display: flex;
+  justify-content: center;
+}
+
+.socialcontent{
+  width:5%;
+}
+.merch{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.merchitems{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #ababab;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.merchitems img{
+  width:50%;
+}
+#subscribebox
+{
+  background : rgba(0,0,0,.6);
+  width : 100vw;
+  height : 100vh;
+
+  position : fixed;
+  top : 0px;
+  left : 0px;
+  z-index : 10;
+
+  display : flex;
+  justify-content: center;
+  align-items : center;
+}
+
+.message
+{
+  background : white;
+  width : 500px;
+  height : 300px;
+  border-radius : 20px;
+  position : relative;
+  display : flex;
+  justify-content: center;
+  align-items : center;
+}
+
+.closebox
+{
+  position : absolute;
+  top : 10px;
+  right : 10px;
+  cursor : pointer;
+}
+#darkmode{
+  max-width: 3%;
+  position : absolute;
+  top : 10px;
+  right : 10px;
+}
+#lightmode{
+  max-width: 10%;
+  position : absolute;
+  top : 10px;
+  right : 10px;
+}

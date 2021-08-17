@@ -1,0 +1,92 @@
+.wrap {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #ababab;
+  font-size: 12px;
+  text-transform: uppercase;
+  width : 100%;
+  margin : 0 auto;
+}
+
+.links{
+  display: flex;
+  width:100%;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#albumcover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#albumcover img{
+  max-width:80%;
+  max-height:80%;
+}
+#dondalist{
+  margin-bottom: 3%;
+}
+#dondatitle{
+  font-size:24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+#dondalist ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size:16px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#musicplatforms{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#musicplatforms img{
+  width:10%;
+  height:10%;
+}
+a{
+  text-decoration: none;
+  color: #ababab;
+}
+a:visited{
+  color: #ababab;
+}
+.album {
+  display:flex;
+  text-align: center;
+  align-items: center;
+}
+.album img{
+  width:40%;
+}
+.album ul{
+  list-style-type: none;
+  width:40%;
+}
+.albumtitleleft{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width:40%;
+  text-align: center;
+}
+.albumtitleright{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width:30%;
+  text-align: center;
+  margin-left:50%;
+}
+#discography{
+  margin-left:10%;
+}
